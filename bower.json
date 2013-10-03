@@ -1,0 +1,8 @@
+{
+  "name": "angular-percentage-directive",
+  "version": "0.0.1",
+  "main": "percentage.js",
+  "dependencies": {
+    "angular": "~1.0.5"
+  }
+}
