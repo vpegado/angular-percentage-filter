@@ -1,11 +1,11 @@
 angular.module('percentage', [])
-    .filter('percentage', function () {
-        return function (input) {
-            var rounded = Math.round(input*10000)/100;
-            if (rounded == NaN) {
+    .filter('percentage', function ($window) {
+        return function (input, decimals, suffix) {
+            decimals = decimals || 3;
+            suffix = suffix || '%';
+            if ($window.isNaN(input)) {
                 return '';
             }
-            var percentage = '' + rounded + '%';
-            return percentage;
+            return Math.round(input * Math.pow(10, deciamls + 2))/Math.pow(10, decimals) + suffix
         };
     });
