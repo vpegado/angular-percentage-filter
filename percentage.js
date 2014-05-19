@@ -6,6 +6,6 @@ angular.module('percentage', [])
             if ($window.isNaN(input)) {
                 return '';
             }
-            return Math.round(input * Math.pow(10, deciamls + 2))/Math.pow(10, decimals) + suffix
+            return Math.round(input * Math.pow(10, decimals + 2))/Math.pow(10, decimals) + suffix
         };
     });
