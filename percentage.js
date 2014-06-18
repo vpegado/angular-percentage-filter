@@ -1,7 +1,7 @@
 angular.module('percentage', [])
     .filter('percentage', function ($window) {
         return function (input, decimals, suffix) {
-            decimals = decimals || 3;
+            decimals = angular.isNumber(decimals)? decimals :  3;
             suffix = suffix || '%';
             if ($window.isNaN(input)) {
                 return '';
