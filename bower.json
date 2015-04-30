@@ -1,8 +1,9 @@
 {
-  "name": "angular-percentage-directive",
+  "name": "angular-percentage-filter",
   "version": "1.0.1",
   "main": "percentage.js",
   "dependencies": {
     "angular": ">=1.2.*"
   }
+  "ignore": []    
 }
