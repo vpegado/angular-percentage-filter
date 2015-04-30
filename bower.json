@@ -5,5 +5,4 @@
   "dependencies": {
     "angular": ">=1.2.*"
   }
-  "ignore": []    
 }
