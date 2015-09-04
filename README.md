@@ -24,7 +24,7 @@ angular.module('myApp', ['percentage']);
 
 Use it in the view:
 ```html
-<span>{{ 2/3 | percentage}}</span>
-<span>{{ 0.2 | percentage}}</span>
-<span>{{ (items | filter:{done: true}).length/items.length | percentage}}</span>
+<span>{{ 2/3 | percentage }}</span>
+<span>{{ 0.2 | percentage }}</span>
+<span>{{ (items | filter:{done: true}).length/items.length | percentage }}</span>
 ```
