@@ -2,6 +2,12 @@
   "name": "angular-percentage-filter",
   "version": "1.0.1",
   "main": "percentage.js",
+  "keywords": [
+    "angular",
+    "filter",
+    "percent",
+    "percentage"
+  ],
   "dependencies": {
     "angular": ">=1.2.*"
   }
