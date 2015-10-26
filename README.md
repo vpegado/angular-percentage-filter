@@ -14,7 +14,7 @@ $ bower install angular-percentage-filter
 
 Include the library:
 ```html
-<script src="/bower_components/angular-percentage-filter/percentage.js"></script>
+<script src="/bower_components/angular-percentage-directive/percentage.js"></script>
 ```
 
 Import it to the angular applicaiton:
